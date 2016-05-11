@@ -15,7 +15,3 @@ spec:
         backend:
           serviceName: ndslabs-gui
           servicePort: 8080
-      - path: /
-        backend:
-          serviceName: ndslabs-apiserver
-          servicePort: 30001

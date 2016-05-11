@@ -33,7 +33,7 @@ spec:
                 fieldPath: metadata.namespace
         args:
         - /nginx-ingress-controller
-        - --default-backend-service=default/tea-svc
+        - --default-backend-service=default/default-http-backend
         - --running-in-cluster=true
         - --healthz-port=9999
       hostNetwork: true
